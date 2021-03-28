@@ -1,0 +1,4 @@
+# hooHackAndroidServer
+
+All the data processing and statistics are generated using the Server App. Since we had a time limit and not even one of our team members had any Backend development we came with a hack to use Android App as a server. Our server app is connected in real time with the Hardware. As soon as there is any interrupt in the hardware the data is fetched by the server app and processed to calculate activity levels, average acceleration, average flex and average value for rotary encoder (RE). The server app maintains a record of 5 output sets provided by the hardware and performs calculation on it and finally uploads the result to another Realtime Database which is then used by the Website to plot graphs and show current status to users in Real Time. The server app keep on performing these steps until the user stops fidgeting with the device.
+
